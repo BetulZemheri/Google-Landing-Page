@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* HEADER */
+.header {
+    padding: 15px;
+    line-height: 36px;
+}
+
+.header__left {
+    float: left;
+}
+.header__right {
+    float: right;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    color: rgb(38, 37, 37);
+    padding: 0.5rem;
+}
+.header__right--appicon {
+    vertical-align: middle;
+}
+.header__right--button {
+    background-color: rgb(14, 111, 197);
+    border: none;
+    color: white;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.header__right--button:hover {
+    box-shadow: rgb(211, 211, 211) 2px 3px 20px;
+    cursor: pointer;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+.main {
+    margin-top: 200px;
+    text-align: center;
+}
+.main__logo {
+    width: 272px;
+    height: 92px;
+}
+.main__search-bar {
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 460px;
+    height: 39px;
+    margin: 20px auto;
+}
+.main__search-bar--input {
+    width: 380px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    margin-top: 3px;
+    outline: none;
+}
+.main__search-bar--magnifier{
+    width: 30px;
+    vertical-align: middle;
+}
+.main__search-bar--mic{
+    width: 15px;
+    vertical-align: middle;
+}
+.main__buttons--left, 
+.main__buttons--right{
+    width: 140px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F8F9FA;
+    margin: 30px 0px;
+    padding: 12px;
+}
+.main__buttons--left:hover, 
+.main__buttons--right:hover {
+    border: 1px solid #D3D3D3;
+    box-shadow: rgb(211, 211, 211) 1px 1px 10px;
+    cursor: pointer;
+}
+.main__language a:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    line-height: 40px;
+  }
+  
+  .footer__country {
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: 1px solid #dadce0;
+  }
+  
+  .footer__bottom--left {
+    float: left;
+  }
+  
+  .footer__bottom--left {
+    float: left;
+  }
+  
+  .footer__bottom--right {
+    float: right;
+  }
